@@ -1,0 +1,49 @@
+[
+	{"h1": "Available files"},
+	{
+		"head": [
+			{"text": "File", "style": {"code": true}},
+			"Description"
+		],
+		"table": [
+			[{"text": "/api/api.json", "click": "http://guides.latmod.com/api/api.json"}, "The JSON file that contains all info about guides, types, icon repositories, etc."],
+			[{"text": "/style.css", "click": "http://guides.latmod.com/style.css"}, "CSS file that controls how Guides website looks like."]
+		]
+	},
+	{"h2": "Types"},
+	{
+		"head": [
+			{"text": "Key", "style": {"code": true}},
+			"Type",
+			"Description"
+		],
+		"table": [
+			["id", "String", "Lowercase ID"],
+			["title", "String", "Title"],
+			["title_p", "String", "Title (Plural)"]
+		]
+	},
+	{"h2": "Default Properties"},
+	"You can change these properties for each page separately. If these properties aren't set, it will use parent page properties. These are root page properties.",
+	{
+		"head": [
+			{"text": "Key", "style": {"code": true}},
+			"Type",
+			"Description"
+		],
+		"table": [
+			["background", "Image", "Background Image"],
+			["background_url", "Image", "Auto-generated from \"background\""],
+			["text_color", "Color", "Default Text Color"],
+			["text_color_mouse_over", "Color", "Text Color when mouse is over links"],
+			["line_color", "Color", "Color of table lines, hr, etc."]
+		]
+	},
+	{"h2": "Icon Repositories"},
+	["A map of modid:base_url, see ", {"text": "Icons page", "click": "/ftbguides/icons"}],
+	{"h2": "Items"},
+	["A map of ", {"code": "{\"modid\": {\"item\": {\"name\": \"Display namee\", \"image\": \"URL to 32x32 image of item\"}}}"}, " used for ", {"code": "\"item:modid:item\""}, " icons."],
+	["Items are loaded from ", {"text": "GitHub items/ folder", "click": "https://github.com/LatvianModder/FTBGuidesWeb/tree/master/items"}],
+	{"h1": "Updating"},
+	"The API / Guides update every time something is pushed to the FTBGuidesWeb repository to minimize resource usage. All files are static."
+]

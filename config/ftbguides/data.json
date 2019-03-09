@@ -1,0 +1,36 @@
+{
+	"title": "FTB Guides",
+	"type": "mod",
+	"modid": "ftbguides",
+	"authors": ["LatvianModder", "FTB"],
+	"icon": "item:minecraft:writable_book",
+	"buttons": [
+		{
+			"title": "CurseForge Page",
+			"icon": "https://i.imgur.com/Kii5WVB.png",
+			"click": "https://minecraft.curseforge.com/projects/ftb-guides"
+		},
+		{
+			"title": "LatvianModder's Patreon",
+			"icon": "https://i.imgur.com/RTyvASj.png",
+			"click": "https://www.patreon.com/LatvianModder"
+		},
+		{
+			"title": "Bugs & Suggestions",
+			"icon": "ftblib:icons/bug",
+			"click": "https://github.com/LatvianModder/FTBGuides/issues"
+		}
+	],
+	"pages": [
+		{
+			"id": "api",
+			"title": "API",
+			"icon": "ftblib:icons/bug"
+		},
+		{
+			"id": "icons",
+			"title": "Icons",
+			"icon": "item:minecraft:grass"
+		}
+	]
+}
