@@ -1,0 +1,13 @@
+[
+	"",
+	{"text": "The Amplifying Tube", "text_size": 5.0, "bold": true},
+	{"hr": 1},
+	{"text": "A block that can turn objects into their amplified smelted counterpak.", "text_size": 1.5, "bold": true},
+	{"text": "For Example it can turn Leaves into Water and Cobblestone into Lava.", "text_size": 1.5, "bold": true},
+	
+	{"img": "tube-1.png"},
+	"",
+
+	{"img": "tube-2.png"},
+	""
+]
