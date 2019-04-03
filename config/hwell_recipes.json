@@ -1,5 +1,5 @@
 {
-	"version": "0.2"
+	"version": "0.2.1"
 	
 	,
 	
@@ -301,6 +301,27 @@
 				"output": { "item": "minecraft:emerald_block" },
 				"inputs": [{ "item": "minecraft:diamond_block" }]
 			}
+		},
+		"core_metal": {
+		    "name":"Metal Core",
+            "base_color":"CCCCCC",
+            "border_color":"E69138",
+			"shard_c" : {
+				"output": { "item": "mysticalworld:silver_block" },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_ca" : {
+				"output": { "item": "tmechworks:metal", "data": 0 },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_p" : {
+				"output": { "item": "tmechworks:metal", "data": 1 },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			},
+			"shard_fe" : {
+				"output": { "item": "tmechworks:metal", "data": 2 },
+				"inputs": [{ "item": "minecraft:iron_block" }]
+			}
 		}
 	}
 	
@@ -308,7 +329,12 @@
 	
 	"seed_of_life_recipes": [
 		{ "WARNING": "IF NO META IS DEFINED ALL BLOCKS OF THE SAME META WILL BE TARGETED",
-		  "item": "thaumcraft:stone_arcane" }
+		  "item": "minecraft:stone" },
+		{ "item": "minecraft:cobblestone" },
+		{ "item": "minecraft:dirt" },
+		{ "item": "minecraft:sand" },
+		{ "item": "minecraft:sandstone" },
+		{ "item": "minecraft:grass" }
 	]
 	
 	,
@@ -371,7 +397,7 @@
 		{
 			"input": { "item": "minecraft:bone_block" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:bone", "count": 1 }
+			"output": { "item": "minecraft:bone", "count": 16 }
 		},
 		{
 			"input": { "item": "minecraft:melon_block" },
@@ -659,10 +685,14 @@
 	
 	"crushing_recipes": [
 		{
-			"WARNING": "IF THE >INPUT< HAS NO data, ALL BLOCKS OF DIFFERENT METADATA WILL BE CONSIDERED",
-			"SO_BE_CAREFUL": "IF YOU DONT WANT THAT TO HAPPEN PUT data=0 ON THE INPUT",
+		
+        
 
-			"input": { "item": "minecraft:cobblestone", "data": 0 },
+		"WARNING": "IF THE >INPUT< HAS NO data, ALL BLOCKS OF DIFFERENT METADATA WILL BE CONSIDERED",
+			"SO_BE_CAREFUL": "IF YOU DONT WANT THAT TO HAPPEN PUT data=0 ON THE INPUT",
+			
+			
+		"input": { "item": "minecraft:cobblestone"},
 			"possible_outputs": [
 				{ "out": { "item": "hwell:dust" , "count": 2 } }
 			]
@@ -775,27 +805,15 @@
 			]
 		},
 		{
-			"input": { "item": "hwell:myst_fertilizer", "data": 0 },
+			"input": { "item": "mysticalagriculture:crafting", "data": 5 },
 			"possible_outputs": [
-				{ "out": { "item": "mysticalagriculture:mystical_fertilizer" , "count": 2 } }
+				{ "out": { "item": "minecraft:feather" , "count": 2, "data": 0  } }
 			]
 		},
 		{
 			"input": { "item": "hwell:empty_rod", "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "mysticalagriculture:crafting" , "count": 2, "data": 5  } }
-			]
-		},
-		{
-			"input": { "item": "hwell:leaf_mesh", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "mysticalagriculture:crafting" , "count": 2, "data": 0  } }
-			]
-		},
-		{
-			"input": { "item": "hwell:myst_dust", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "enderio:item_material" , "count": 2, "data": 20  } }
 			]
 		},
 	    {
@@ -821,54 +839,6 @@
 			"possible_outputs": [
 				{ "out": { "item": "thaumcraft:sapling_silverwood" , "count": 2, "data": 0  } }
 			]
-		},
-	    {
-			"input": { "item": "hwell:shard_n", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-	    {
-			"input": { "item": "hwell:shard_p", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-		{
-			"input": { "item": "hwell:shard_o", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-		{
-			"input": { "item": "hwell:shard_h", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-	    {
-			"input": { "item": "hwell:shard_au", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-	    {
-			"input": { "item": "hwell:shard_c", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-	    {
-			"input": { "item": "hwell:shard_ca", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
-		},
-	    {
-			"input": { "item": "hwell:shard_fe", "data": 0 },
-			"possible_outputs": [
-				{ "out": { "item": "thaumcraft:crystal_essence" , "count": 2, "data": 0  } }
-			]
 		}
 	]
 	
@@ -880,6 +850,11 @@
 			
 			"output": { "item": "minecraft:coal_ore" },
 			"probability": 30.0,
+			"filter": { "item": "hwell:shard_c"}
+		},
+		{	
+			"output": { "item": "minecraft:bedrock" },
+			"probability": 8.0,
 			"filter": { "item": "hwell:shard_c"}
 		},
 		{	
@@ -930,6 +905,10 @@
 		{	
 			"input": { "item": "hwell:raw_asul_block" },
 			"output": { "item": "hwell:asul_block"}
+		},
+		{	
+			"input": { "item": "minecraft:glass" },
+			"output": { "item": "minecraft:ice"}
 		},
 		{	
 			"input": { "item": "minecraft:leaves", "data":0  },
@@ -1126,6 +1105,23 @@
 
 		{ "item": "minecraft:golden_helmet" }, { "item": "minecraft:golden_chestplate" },
 		{ "item": "minecraft:golden_leggings" }, { "item": "minecraft:golden_boots" },
+		{ "item": "tconstruct:pickaxe" },		{ "item": "tconstruct:shovel" },		{ "item": "tconstruct:hatchet" },		{ "item": "tinkersarsenal:boomstick" },
+		{ "item": "tcomplement:chisel" },		{ "item": "tconstruct:mattock" },		{ "item": "tconstruct:kama" },		{ "item": "tconstruct:hammer" },
+		{ "item": "tconstruct:excavator" },	{ "item": "tconstruct:rapier" },	{ "item": "tconstruct:longsword" },	{ "item": "tconstruct:scythe" },
+		{ "item": "tconstruct:broadsword" },{ "item": "tconstruct:lumberaxe" },
+       { "item": "inspirations:wither_crook" },{ "item": "inspirations:wooden_crook" },{ "item": "inspirations:stone_crook" },{ "item": "inspirations:bone_crook" },{ "item": "inspirations:blaze_crook" },
+
+
+        { "item": "pickletweaks:wooden_paxel" },
+		{ "item": "pickletweaks:stone_paxel" },
+		{ "item": "pickletweaks:iron_paxel" },
+		{ "item": "pickletweaks:golden_paxel" },
+		{ "item": "pickletweaks:diamond_paxel" },
+		{ "item": "pickletweaks:flint_paxel" },
+		{ "item": "tcomplement:chisel" },
+				{ "item": "chisel:chisel_iron" },
+						{ "item": "chisel:chisel_diamond" },
+								{ "item": "chisel:chisel_hitech" },
 
 		{ "item": "minecraft:shears" },
 		{ "item": "minecraft:bow" },

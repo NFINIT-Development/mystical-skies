@@ -33,11 +33,6 @@ key_key.hotbar.8:9:NONE
 key_key.hotbar.9:10:NONE
 key_Change Caster Focus:33:NONE
 key_Misc Caster Toggle:34:NONE
-key_ALT Key:56:NONE
-key_Boost Key:29:NONE
-key_Mode Switch Key:50:NONE
-key_Side Inventory Key:46:NONE
-key_Hub Expand Key:45:NONE
 key_keybind.baublesinventory:48:NONE
 key_enderio.keybind.glidertoggle:34:NONE
 key_enderio.keybind.soundlocator:0:NONE
@@ -54,14 +49,27 @@ key_enderio.keybind.fovplus:0:NONE
 key_enderio.keybind.fovminus:0:NONE
 key_enderio.keybind.fovplusfast:0:NONE
 key_enderio.keybind.fovminusfast:0:NONE
-key_key.ftbutilities.nbt:49:ALT
-key_key.ftbquests.quests:0:NONE
+key_key.conarm.toggle_helm.desc:34:NONE
+key_key.conarm.toggle_chest.desc:35:NONE
+key_key.conarm.toggle_leg.desc:36:NONE
+key_psimisc.keybind:46:NONE
 key_keybind.hammercorerenderstack:77:NONE
-key_Test:43:NONE
+key_key.ftbguides.guide:0:NONE
+key_key.ftbutilities.nbt:49:ALT
+key_key.ftbutilities.trash:211:NONE
+key_key.ftbquests.quests:0:NONE
+key_key.moreoverlays.lightoverlay.desc:65:NONE
+key_key.moreoverlays.chunkbounds.desc:67:NONE
+key_openblocks.keybind.vario_switch:47:NONE
+key_openblocks.keybind.vario_vol_up:0:NONE
+key_openblocks.keybind.vario_vol_down:0:NONE
+key_oreexcavation.key.excavate:41:NONE
+key_oreexcavation.key.shape:47:NONE
 key_key.tg.open_gui:19:NONE
 key_key.tg.armor_ability:46:NONE
 key_key.tg.lense_gui:33:NONE
-key_key.toggle_focus.desc:15:NONE
+key_key.wings.fly:19:NONE
+key_key.narrator:48:CONTROL
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0:NONE
@@ -72,10 +80,34 @@ key_key.jei.previousPage:201:NONE
 key_key.jei.nextPage:209:NONE
 key_key.jei.bookmark:30:NONE
 key_key.jei.toggleBookmarkOverlay:0:NONE
-key_Unequip:44:NONE
+key_nei.options.keys.gui.botania_corporea_request:46:NONE
+key_key.placeItem:25:NONE
+key_key.toolConfig:46:NONE
+key_key.toolProfileChange:43:NONE
+key_key.armorProfileChange:43:ALT
+key_key.toggleFlight:0:NONE
+key_key.toggleDislocator:0:NONE
+key_key.plustic_release_entity.desc:11:NONE
+key_key.plustic_toggle_gui.desc:23:NONE
+key_key.plustic_set_portal.desc:49:NONE
+key_key.plustic_brown_magic.desc:24:NONE
+key_key.plustic_toggle_tool.desc:51:ALT
+key_key.plustic_fruit_salad.desc:12:ALT
+key_key.plustic_mots.desc:13:ALT
+key_bbw.key.mode:50:NONE
+key_bbw.key.fluidmode:33:ALT
+key_key.keyExtraInvo:45:NONE
+key_key.keyWheel:19:NONE
+key_key.keyExtraCraftin:46:NONE
+key_key.overload:33:SHIFT
+key_key.toggleLiquids:38:NONE
+key_key.toggleVisible:0:NONE
 key_invtweaks.key.sort:19:NONE
+key_jecalculation.key.gui_craft:0:NONE
+key_jecalculation.key.gui_math:0:NONE
 key_key.carpet_forward:17:NONE
 key_key.carpet_backward:31:NONE
+key_tombstone.message.knowledge_of_death:0:NONE
 key_key.journeymap.zoom_in:13:NONE
 key_key.journeymap.zoom_out:12:NONE
 key_key.journeymap.minimap_type:26:NONE
