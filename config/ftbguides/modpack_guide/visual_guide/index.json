@@ -1,5 +1,10 @@
 [
     {
+		"id": "charger",
+		"title": "Charger",
+				"icon": "item:hwell:charger"
+	},
+    {
 		"id": "ore_puller",
 		"title": "Ore Puller",
 		"icon": "item:hwell:puller"

@@ -8,11 +8,6 @@ You can get Mysterious Leaves simply by breaking them with your hands..
 ![](leaves.png)
 
 
-Cobblestone Generators are disabled.
-You can no longer get free cobblestone by using that old vanilla mechanic.
-![](cobble.png)
-
-
 You can get Stone by crafting stone essence crafted from Mysterious Dust.
 ![](stone.png)
 

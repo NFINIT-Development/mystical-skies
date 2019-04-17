@@ -1,16 +1,18 @@
+Portals
+
 The Nether Portal:
-Can be built like a normal Nether portal.
-Warning: The corner blocks need to be the same as the rest of the frame, the corners can't be empty.
-![](nether.png)
+The Nether portal can be made of any size using Obsidian blocks.
+Warning: The corner of the portal frame can't be empty, you can use any block as a corner block including Slants.
+![](nether4.png)
 
 
 The Midnight Portal:
-Can be built like a normal Nether portal but using Dreamrock blocks instead.
-Warning: The corner blocks need to be the same as the rest of the frame, the corners can't be empty.
-![](midnight.png)
+The Midnight portal can be made of any size, but using Dreamrock blocks.
+Warning: The corner of the portal frame can't be empty, you can use any block as a corner block including Slants.
+![](midnight2.png)
 
 
 The End Portal:
-Can be built like a normal Nether portal but using End Stone Brick blocks instead.
-Warning: The corner blocks need to be the same as the rest of the frame, the corners can't be empty.
-![](end.png)
+The End portal can be made of any size, but using End Stone Brick blocks.
+Warning: The corner of the portal frame can't be empty, you can use any block as a corner block including Slants.
+![](end2.png)

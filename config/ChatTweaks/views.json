@@ -1,0 +1,42 @@
+{
+  "views": [
+    {
+      "name": "Global",
+      "filterPattern": "",
+      "outputFormat": "$0",
+      "style": "Side",
+      "isExclusive": false,
+      "isMuted": false,
+      "channels": [
+        "main",
+        "system",
+        "death",
+        "interaction"
+      ]
+    },
+    {
+      "name": "system",
+      "filterPattern": "",
+      "outputFormat": "$0",
+      "style": "Side",
+      "isExclusive": true,
+      "isMuted": false,
+      "channels": [
+        "system",
+        "death",
+        "main"
+      ]
+    },
+    {
+      "name": "interaction",
+      "filterPattern": "",
+      "outputFormat": "$0",
+      "style": "Bottom",
+      "isExclusive": true,
+      "isMuted": false,
+      "channels": [
+        "interaction"
+      ]
+    }
+  ]
+}

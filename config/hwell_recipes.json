@@ -3,6 +3,14 @@
 	
 	,
 	
+	"nether_portal_recipes": [
+		{
+			"input": { "item": "hwell:crystal"},
+			"output": { "item": "hwell:crystal_nether"}
+		}
+	]
+	,
+	
 	"power_crystal_recipes": {
 		"nucleous": [
 			{
@@ -397,7 +405,7 @@
 		{
 			"input": { "item": "minecraft:bone_block" },
 			"wheels": [ "iron", "diamond" ],
-			"output": { "item": "minecraft:bone", "count": 16 }
+			"output": { "item": "minecraft:bone", "count": 1 }
 		},
 		{
 			"input": { "item": "minecraft:melon_block" },
@@ -685,14 +693,10 @@
 	
 	"crushing_recipes": [
 		{
-		
-        
-
-		"WARNING": "IF THE >INPUT< HAS NO data, ALL BLOCKS OF DIFFERENT METADATA WILL BE CONSIDERED",
+			"WARNING": "IF THE >INPUT< HAS NO data, ALL BLOCKS OF DIFFERENT METADATA WILL BE CONSIDERED",
 			"SO_BE_CAREFUL": "IF YOU DONT WANT THAT TO HAPPEN PUT data=0 ON THE INPUT",
-			
-			
-		"input": { "item": "minecraft:cobblestone"},
+
+			"input": { "item": "minecraft:cobblestone", "data": 0 },
 			"possible_outputs": [
 				{ "out": { "item": "hwell:dust" , "count": 2 } }
 			]
@@ -701,6 +705,19 @@
 			"input": { "item": "minecraft:stone"},
 			"possible_outputs": [
 				{ "out": { "item": "hwell:dust" , "count": 2 } }
+			]
+		},
+		{
+		"input": { "item": "minecraft:bone"},
+			"possible_outputs": [
+				{ "out": { "item": "soulus:bone_chunk_normal" }, "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_dry" }, "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_fungal" }, "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_frozen"} , "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_scale"} , "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_ender" }, "probability": 0.125 },
+				{ "out": { "item": "soulus:bone_chunk_nether" }, "probability": 0.125 }
+		
 			]
 		},
 		{
@@ -804,7 +821,7 @@
 				{ "out": { "item": "minecraft:glowstone_dust", "count": 1}, "probability": 0.5 }
 			]
 		},
-		{
+				{
 			"input": { "item": "mysticalagriculture:crafting", "data": 5 },
 			"possible_outputs": [
 				{ "out": { "item": "minecraft:feather" , "count": 2, "data": 0  } }
@@ -907,10 +924,6 @@
 			"output": { "item": "hwell:asul_block"}
 		},
 		{	
-			"input": { "item": "minecraft:glass" },
-			"output": { "item": "minecraft:ice"}
-		},
-		{	
 			"input": { "item": "minecraft:leaves", "data":0  },
 			"output_fluid": "water"
 		},
@@ -936,10 +949,6 @@
 		},
 		{	
 			"input": { "item": "hwell:myst_leaves" },
-			"output_fluid": "water"
-		},
-		{	
-			"input": { "item": "minecraft:ice" },
 			"output_fluid": "water"
 		},
 		{	
@@ -1105,11 +1114,18 @@
 
 		{ "item": "minecraft:golden_helmet" }, { "item": "minecraft:golden_chestplate" },
 		{ "item": "minecraft:golden_leggings" }, { "item": "minecraft:golden_boots" },
+
+		{ "item": "minecraft:shears" },
+		{ "item": "minecraft:bow" },
+		{ "item": "minecraft:golden_leggings" }, { "item": "minecraft:golden_boots" },
 		{ "item": "tconstruct:pickaxe" },		{ "item": "tconstruct:shovel" },		{ "item": "tconstruct:hatchet" },		{ "item": "tinkersarsenal:boomstick" },
 		{ "item": "tcomplement:chisel" },		{ "item": "tconstruct:mattock" },		{ "item": "tconstruct:kama" },		{ "item": "tconstruct:hammer" },
 		{ "item": "tconstruct:excavator" },	{ "item": "tconstruct:rapier" },	{ "item": "tconstruct:longsword" },	{ "item": "tconstruct:scythe" },
 		{ "item": "tconstruct:broadsword" },{ "item": "tconstruct:lumberaxe" },
        { "item": "inspirations:wither_crook" },{ "item": "inspirations:wooden_crook" },{ "item": "inspirations:stone_crook" },{ "item": "inspirations:bone_crook" },{ "item": "inspirations:blaze_crook" },
+
+        { "item": "betterbuilderswands:wandstone" },
+        { "item": "betterbuilderswands:wandiron" },
 
 
         { "item": "pickletweaks:wooden_paxel" },
@@ -1122,11 +1138,6 @@
 				{ "item": "chisel:chisel_iron" },
 						{ "item": "chisel:chisel_diamond" },
 								{ "item": "chisel:chisel_hitech" },
-
-		{ "item": "minecraft:shears" },
-		{ "item": "minecraft:bow" },
-
-		{ "item": "hwell:repairing_paste" },
 		{ "item": "hwell:obsidian_displacer" },
 		{ "item": "hwell:empowered_displacer" },
 		{ "item": "hwell:soulsteel_pickaxe" }, { "item": "hwell:soulsteel_axe" }, { "item": "hwell:soulsteel_shovel" },

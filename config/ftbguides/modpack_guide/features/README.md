@@ -5,7 +5,7 @@ Features
 
 
  - In-game Modpack Guide.
-![](guide.png)
+![](guide2.png)
 
 
  - Quests progression oriented.
@@ -17,5 +17,5 @@ Features
 
 
  - Custom Portals.
-![](portal.png)
+![](portal2.png)
 
